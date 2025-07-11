@@ -1,0 +1,20 @@
+{
+  "name": "okx-web3-simple-swap",
+  "version": "1.0.0",
+  "description": "Simple OKX Web3 DEX swap automation using Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "buy": "node buy.js",
+    "sell": "node sell.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["okx", "web3", "dex", "swap", "puppeteer"],
+  "author": "Your Name",
+  "license": "MIT"
+}
